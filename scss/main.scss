@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+font-family:'Poppins', san-serif;
+margin: 0;
+padding: 0;
+}
+
+
+/* navbar */
+nav {
+display:flex;
+flex-direction: row;
+}
+
+.logo{
+background: #F2F2F2;
+padding: 1rem 1rem 1rem;
+}
+
+.logo-item{
+text-decoration:none;
+color:red;
+font-weight: bold;
+}
+
+.nav-list{
+display:flex;
+flex-direction: row;
+background: #F2F2F2;
+justify-content:flex-end;
+width: 100%;
+padding: 1rem 0 1rem;
+}
+
+.nav-item{
+padding-left: 2rem;
+padding-right: 3rem;
+}
+
+.item {
+text-decoration:none;
+font-weight:bold;
+color: black;
+}
+
+
+
+
+
+/* Footer */
+.footer-copyright {
+padding:1rem;
+font-weight:bold;
+text-align:center;
+background: #212121;
+color: white;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+}
+
+
+/*Hero Section*/
+.hero-container {
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+
+.hero-button{
+display:flex;
+background:red;
+align-items:center;
+justify-content:center;
+color:white;
+border-radius: 5px;
+width:120px;
+height:30px;
+}
+
+
+.title{
+color:red;
+font-size: 40px;
+margin: 0;
+padding-top:4rem;
+}
+
+.left-col{
+display: flex;
+flex-direction: column;
+width: 50%;
+padding: 1rem 2rem 2rem 3rem;
+}
+
+.right-col{
+display: flex;
+width: 50%;
+}
+
+.hero-image{
+display:block;
+width: 70%;
+margin-left: auto;
+margin-right: 20px;
+}
+
+.hero-title{
+color: red;
+font-weight: bold;
+}
+
+
+.span-bold{
+font-weight: bold;
+}
+
+
